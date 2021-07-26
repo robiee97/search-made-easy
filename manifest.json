@@ -1,0 +1,14 @@
+{
+    "name": "search made easy",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "search quickly to your fav site using context menus",
+    "browser_action":{
+        "default_icon":"icon.png"
+    },
+    "background": {
+        "scripts": ["main.js"],
+        "persistent": false
+    },
+    "permissions": ["tabs", "<all_urls>", "contextMenus"]
+  }
