@@ -15,5 +15,5 @@ download Code ![](https://github.com/robiee97/search-made-easy/blob/master/ss/up
 ```
 3. search your text 
 ```
-download Code ![](https://github.com/robiee97/search-made-easy/blob/master/ss/example.JPG)
+download Code ![](https://github.com/robiee97/search-made-easy/blob/master/ss/example.jpg)
 
