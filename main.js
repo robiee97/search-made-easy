@@ -21,6 +21,13 @@ chrome.contextMenus.create({
 });
 
 chrome.contextMenus.create({
+    title: "flipkart",
+    parentId: "searchby",
+    id: "flipkart",
+    contexts:["selection"]
+});
+
+chrome.contextMenus.create({
     title: "youtube",
     parentId: "searchby",
     id: "youtube",
@@ -59,6 +66,9 @@ chrome.contextMenus.onClicked.addListener(function(data){
     }
     if(data.menuItemId == "amazon" && data.selectionText){
         window.open('https://amazon.in/s?k='+data.selectionText);
+    }
+    if(data.menuItemId == "flipkart" && data.selectionText){
+        window.open('https://www.flipkart.com/search?q='+data.selectionText);
     }
     if(data.menuItemId == "youtube" && data.selectionText){
         window.open('https://youtube.com/results?search_query='+data.selectionText);
